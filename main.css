@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+
+nav.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    background-color: rgb(55, 52, 52);
+    align-items: center;
+    border-bottom: 5px solid rgb(255, 98, 0);
+}
+
+div.container{
+    width: 30%;
+}
+
+ul.list-services{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-between;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: .8em;
+    align-items: center;
+}
+
+div.name-of-company p{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #fff;
+}
+
+span.orange{
+    color: rgb(255, 98, 0);
+}
+
+section.main-content{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #fff;
+    background-image: url('./workdesk.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 0 100px;
+}
+
+h2.main-content-header{
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 3em;
+    text-align: justify;
+    /*  Learn how to make the background */
+}
+
+p.main-content-caption{
+    text-align: center;
+}
+
+section.newsletter{
+    width: 100%;
+    padding: 20px 0;
+    background-color: rgb(55, 52, 52);
+}
+
+div.text-newsletter{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: rgb(55, 52, 52); */
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+div.form input{
+    padding: 5px 10px;
+    width: 200px;
+}
+
+div.form button{
+    height: 100%;
+    padding: 5px 20px;
+    background-color: rgb(255, 98, 0);
+    color: #fff;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+section.footer{
+    text-align: center;
+    background: rgb(255, 98, 0);
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+section.services{
+    display: flex;
+    width: 100%;
+    padding: 50px 100px;
+    height: 60vh;
+    justify-content: space-between;
+}
+
+div.container-services{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+div.container-services img{
+    height: 72px;
+    width: 72px;
+    display: block;
+    margin: 0 auto;
+}
+
+div.container-services p{
+    line-height: 30px;
+}
+
+div.container-services h2{
+    margin: 20px 0;
+}
